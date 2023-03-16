@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .pokemon {
+        @apply p-1 rounded-lg hover:cursor-pointer m-2 bg-gradient-to-t from-slate-500 hover:from-slate-700 dark:from-slate-900 dark:hover:from-slate-700 flex-col justify-around
+    }
+
+    .card-pokemon {
+        @apply py-4 px-0 font-medium lg:text-base text-slate-800 dark:text-slate-300
+    }
+
+    .pokemon.fire {
+        @apply from-orange-500 hover:from-orange-700 dark:from-orange-900 dark:hover:from-orange-700
+    }
+
+    .pokemon.water {
+        @apply from-blue-500 hover:from-blue-700 dark:from-blue-900 dark:hover:from-blue-700
+    }
+
+    .pokemon.grass {
+        @apply from-emerald-500 hover:from-emerald-700 dark:from-emerald-900 dark:hover:from-emerald-700
+    }
+
+    .pokemon.bug {
+        @apply from-green-500 hover:from-green-700 dark:from-green-900 dark:hover:from-green-700
+    }
+
+    .pokemon.ground, .pokemon.rock {
+        @apply from-stone-500 hover:from-stone-700 dark:from-stone-900 dark:hover:from-stone-700
+    }
+
+   .pokemon.fighting {
+        @apply from-red-500 hover:from-red-700 dark:from-red-900 dark:hover:from-red-700
+    }
+
+    .pokemon.electric {
+        @apply from-yellow-500 hover:from-yellow-700 dark:from-yellow-900 dark:hover:from-yellow-700
+    }
+
+    .pokemon.poison {
+        @apply from-violet-500 hover:from-violet-700 dark:from-violet-900 dark:hover:from-violet-700
+    }
+
+   .pokemon.ghost {
+        @apply from-purple-500 hover:from-purple-700 dark:from-purple-900 dark:hover:from-purple-700
+    }
+
+   .pokemon.fairy {
+        @apply from-pink-500 hover:from-pink-700 dark:from-pink-900 dark:hover:from-pink-700
+    }
+
+   .pokemon.psychic {
+        @apply from-rose-500 hover:from-rose-700 dark:from-rose-900 dark:hover:from-rose-700
+    }
+
+    .pokemon.ice {
+        @apply from-cyan-500 hover:from-cyan-700 dark:from-cyan-900 dark:hover:from-cyan-700
+    }
+
+   .pokemon.dragon {
+        @apply from-sky-500 hover:from-sky-700 dark:from-sky-900 dark:hover:from-sky-700
+    }
+
+    .pokemon-title {
+        @apply text-center text-xs lg:font-medium lg:text-base text-slate-800 dark:text-slate-300 pb-2
+    }
+}
