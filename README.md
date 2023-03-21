@@ -50,6 +50,10 @@ Projeto baseado em [Júnior Messias - vuemon](https://github.com/jrmessias/vuemo
 
 Deploy por [Github](https://vuedex-go.jrmessias.com.br)
 
+## TODO
+- [ ] Ajustes na responsividade
+- [ ] Página sobre
+
 ## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
